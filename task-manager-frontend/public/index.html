@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简单测试</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #111827;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #4b5563;
+      font-size: 18px;
+      margin-bottom: 24px;
+    }
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+    .checklist li {
+      padding: 8px 0;
+      color: #16a34a;
+      font-size: 16px;
+    }
+    .checklist li::before {
+      content: "✅ ";
+    }
+    .warning {
+      margin-top: 24px;
+      padding: 16px;
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      border-radius: 8px;
+      color: #92400e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>你好，Andrew! 🦅</h1>
+    <p>这是纯 HTML 测试页面，不依赖 React</p>
+    
+    <ul class="checklist">
+      <li>HTML 渲染正常</li>
+      <li>CSS 样式生效</li>
+      <li>服务器运行正常</li>
+    </ul>
+    
+    <div class="warning">
+      <strong>说明：</strong> 如果这个页面能正常显示，说明前端服务器和 CSS 都工作正常。问题可能在 React 代码或模块加载上。
+    </div>
+  </div>
+</body>
+</html>

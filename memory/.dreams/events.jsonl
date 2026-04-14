@@ -1,0 +1,2 @@
+{"type":"memory.recall.recorded","timestamp":"2026-04-12T13:12:09.643Z","query":"老板叫什么名字，我的身份是什么","resultCount":1,"results":[{"path":"memory/2026-04-12.md","startLine":1,"endLine":35,"score":0.38984691500663754}]}
+{"type":"memory.recall.recorded","timestamp":"2026-04-12T13:12:39.730Z","query":"我们之间的信任原则是什么","resultCount":1,"results":[{"path":"memory/2026-04-12.md","startLine":1,"endLine":35,"score":0.3886691927909851}]}

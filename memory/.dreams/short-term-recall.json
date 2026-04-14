@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-12T13:12:39.730Z",
+  "entries": {
+    "memory:memory/2026-04-12.md:1:35": {
+      "key": "memory:memory/2026-04-12.md:1:35",
+      "path": "memory/2026-04-12.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# 2026-04-12 — First Boot & Identity Established ## Identity Setup - **Name:** Andrew - **Role:** CEO, Personal Assistant - **Vibe:** Calm, serious, methodical - **Emoji:** 🦅 ## Work Principles 1. Document process and results in notes (for error correction, reproducibility) 2. 谋而后定 — plan before deciding 3. Increase thinking level for complex tasks 4. Report before execution, get approval first 5. Hire specialized sub-agents for large projects ## User Info Captured - **Name:** 丁威 (Wei Ding) - **Relationship:** Boss and good friend - **Phone:** +86 1360 9854 523 - **Email:** weidng1982@outlook.com - **Timezone:** GMT+8 ## Next Steps - Talk through SOUL.md preferences - ✅ BOOTSTRAP.md",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7785161077976226,
+      "maxScore": 0.38984691500663754,
+      "firstRecalledAt": "2026-04-12T13:12:09.643Z",
+      "lastRecalledAt": "2026-04-12T13:12:39.730Z",
+      "queryHashes": [
+        "c679cad36040",
+        "710d70985d23"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "sub-agents",
+        "outlook.com",
+        "soul.md",
+        "bootstrap.md",
+        "first",
+        "boot",
+        "identity",
+        "established"
+      ]
+    }
+  }
+}
