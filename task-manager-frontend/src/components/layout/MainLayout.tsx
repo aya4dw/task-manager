@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
-import { LayoutDashboard, KanbanSquare, Settings, Users, FileText } from 'lucide-react';
+import { LayoutDashboard, KanbanSquare } from 'lucide-react';
 
 interface NavItem {
   path: string;
@@ -12,9 +12,6 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
   { path: '/', icon: <LayoutDashboard className="w-5 h-5" />, label: '仪表盘' },
   { path: '/kanban', icon: <KanbanSquare className="w-5 h-5" />, label: '看板' },
-  { path: '/agents', icon: <Users className="w-5 h-5" />, label: '员工' },
-  { path: '/templates', icon: <FileText className="w-5 h-5" />, label: '模板' },
-  { path: '/settings', icon: <Settings className="w-5 h-5" />, label: '设置' },
 ];
 
 interface MainLayoutProps {
